@@ -4,6 +4,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 //Import Pages
 import Home from "../pages/Home/Home";
 import Contact from "../pages/Contact/Contact";
+import About from "../pages/About/About";
 
 
 
@@ -16,6 +17,9 @@ const Main = (props) => {
                 </Route>
                 <Route path="/home">
                     <Home />
+                </Route>
+                <Route path ="/about">
+                    <About />
                 </Route>
                 <Route path="/contact">
                     <Contact />
