@@ -7,7 +7,8 @@ const Header = (props) => {
     return  (
         <header>
             <div>
-                <NavLink to="/home" activeStyle={{ color: "white" }} className='Link'><h3>HOME</h3></NavLink>
+                <NavLink to="/home"><h3>HOME</h3></NavLink>
+                <NavLink to="/contact"><h3>CONTACT</h3></NavLink>
             </div>
         </header>
     )
