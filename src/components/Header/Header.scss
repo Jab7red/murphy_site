@@ -1,4 +1,15 @@
-.links {
+header {
+    padding-bottom: 50px;
+}
+
+.link {
     display: flex;
     justify-content: space-around;
+    color: white;
+    background-color: lightblue;
 }
+
+.link:active {
+    color: black;
+}
+

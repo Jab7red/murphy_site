@@ -3,7 +3,16 @@ import './Home.scss'
 const Home = (props) => {
     return (
         <div>
-            <h1>Home Content Here</h1>
+            <article>
+                <img src="" alt="pic soon" />
+                <article>
+                    <h3>Catch Phrase</h3>
+                </article>
+                <article>
+                    <h4>Mission Statement</h4>
+                    <p>stuff goes here</p>
+                </article>
+            </article>
         </div>
     )
 };
