@@ -1,6 +1,7 @@
 //Import components
 import Header from './components/Header/Header';
 import Main from './components/Main';
+import Footer from './components/Footer/Footer';
 
 import './App.scss';
 
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header />
       <Main />
+      <Footer />
     </div>
   );
 }

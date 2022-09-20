@@ -7,7 +7,7 @@ const Header = (props) => {
     return  (
         <header>
             <div className="headerTitle">
-                <h2>MurphyMt</h2>
+                <h2>MurphyMt (will have image)</h2>
             </div>
             <div className="links">
                 <NavLink to="/home"><h3>HOME</h3></NavLink>
